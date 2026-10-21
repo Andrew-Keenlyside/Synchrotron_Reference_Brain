@@ -14,6 +14,8 @@ Cohort-averaged synchrotron tomography (HiP-CT) of the adult human brain, in MNI
 | SRB 2026a template | 100 µm |
 | SuperSynth labels, MNI | 500 µm |
 | SuperSynth labels, SRB 2026a | 500 µm |
+| S-21-46 HiP-CT, warped to SRB 2026a | 50 µm |
+| S-21-46 HiP-CT, linear (affine only) to MNI | 50 µm |
 | Label-stage warp to MNI: mean displacement | 500 µm |
 | Label-stage warp to MNI: SD of displacement | 500 µm |
 | Label-stage warp to MNI: mean log2 Jacobian | 500 µm |
