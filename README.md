@@ -14,8 +14,17 @@ Cohort-averaged synchrotron tomography (HiP-CT) of the adult human brain, in MNI
 | SRB 2026a template | 100 µm |
 | SuperSynth labels, MNI | 500 µm |
 | SuperSynth labels, SRB 2026a | 500 µm |
+| Label-stage warp to MNI: mean displacement | 500 µm |
+| Label-stage warp to MNI: SD of displacement | 500 µm |
+| Label-stage warp to MNI: mean log2 Jacobian | 500 µm |
 
 The label layers start hidden; switch them on in the layer list. Their colours follow the FreeSurfer lookup table, with cortex split into 17 gyral groups per hemisphere.
+
+The warp layers show how far, and how much locally, the 10 brains were deformed to reach MNI at the label stage. Their colour scales, as drawn in the viewer:
+
+<img src="img/scalebars/label_stage_mean_displacement_mm_light.png" height="220" alt="mean displacement scale"> <img src="img/scalebars/label_stage_sd_displacement_mm_light.png" height="220" alt="SD of displacement scale"> <img src="img/scalebars/label_stage_mean_log2_jacobian_light.png" height="220" alt="mean log2 Jacobian scale">
+
+SVG and dark-background versions are in `img/scalebars/`.
 
 The volumes are OME-Zarr files in a public Google Cloud bucket; the link above opens all of them.
 
